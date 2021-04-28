@@ -11,9 +11,9 @@ Notebook:
 * _experiment_results_: notebook per la visualizzazione dei risultati della sperimentazione.
 
 File:
-* _stopwords_: cartella contenente i file con le stop words utilizzate da opinion_mining.ipynb;
-* _dataset_movie_list.txt_: lista di ID dei film contenuti nel dataset con le recensioni, utilizzata da opinion_mining.ipynb (è possibile generare questo file utilizzando reviews_mapping.ipynb);
-* _reviewsPerFilm.txt_: lista contenente il numero di recensioni contenute nel dataset per ogni film, utilizzata da opinion_mining.ipynb (è possibile generare questo file utilizzando reviews_mapping.ipynb).
+* _stopwords_: cartella contenente i file con le stop words utilizzate da _opinion_mining.ipynb_;
+* _dataset_movie_list.txt_: lista di ID dei film contenuti nel dataset con le recensioni, utilizzata da _opinion_mining.ipynb_ (è possibile generare questo file utilizzando _reviews_mapping.ipynb_);
+* _reviewsPerFilm.txt_: lista contenente il numero di recensioni contenute nel dataset per ogni film, utilizzata da _opinion_mining.ipynb_ (è possibile generare questo file utilizzando _reviews_mapping.ipynb_).
 
 ## Istruzioni
 ### _opinion_mining.ipynb_
@@ -26,4 +26,4 @@ __N.B.__ se si vuole eseguire la fase di Pre-processing è opportuno utilizzare 
 
 ### Esecuzione completa a partire da un nuovo dataset
 Utilizzare il notebook _reviews_mapping.ipynb_, adattando il codice nella cella "Mapping dei film in _idMapping.txt_ con le review" in base alle caratteristiche del dataset utilizzato (il codice presente funziona solo con il dataset https://unibari-my.sharepoint.com/:u:/g/personal/cataldo_musto_uniba_it/EUbztek47bRMtkvsmb-a59IBH9i_qY0GV1VZdEibTU3rQw?e=Ggh45j).\
-Successivamente utilizzare il notebook opinion_mining.txt per estrarre gli aspetti.
+Successivamente utilizzare il notebook _opinion_mining.ipynb_ per estrarre gli aspetti.
