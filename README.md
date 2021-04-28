@@ -1,4 +1,4 @@
-# tesi_itps
+# movie_reviews_opinion_mining
 
 ## Contenuto del repository
 Notebook:
