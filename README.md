@@ -17,7 +17,9 @@ File:
 
 ## Istruzioni
 ### opinion_mining.ipynb
-Scaricare il contenuto del repository. Caricare in una cartella in Google Drive i file dataset_movie_list.txt, reviewsPerFilm.txt, la cartella stopwords e il contenuto del dataset pre-elaborato: è necessaria solo la cartella splitted_dataset. splitted_sentiment e splitted_processed_tokens sono utili solo per evitare di dover eseguire la fase di Pre-processing. Se si vuole solo effettuare la fase di Aspect Extraction e Aspect Selection basta caricare solo splitted_processed_tokens. 
-Settare opportunamente le celle nel blocco Setup ed eseguire tutte le celle nel blocco Setup e nel blocco Funzioni.
-Eseguire tutte le celle nei blocchi relativi alle fasi desiderate.
+Scaricare il contenuto del repository.\
+Aprire Colab e caricare il notebook opinion_mining.ipynb.\
+Caricare in una cartella in Google Drive i file dataset_movie_list.txt, reviewsPerFilm.txt, la cartella stopwords e il contenuto del dataset pre-elaborato: è necessaria solo la cartella splitted_dataset. splitted_sentiment e splitted_processed_tokens sono utili solo per evitare di dover eseguire la fase di Pre-processing. Se si vuole solo effettuare la fase di Aspect Extraction e Aspect Selection basta caricare solo splitted_processed_tokens.\
+Settare opportunamente le celle nel blocco Setup ed eseguire tutte le celle nel blocco Setup e nel blocco Funzioni.\
+Eseguire tutte le celle nei blocchi Pre-processing, Aspect Extraction e Aspect Selection se si vuole eseguire tutta la pipeline a partire dai file in splitted_dataset, altimenti eseguire solo le celle nei blocchi Aspect Extraction e Aspect Selection se si vuole eseguire la pipeline a partire dai file in splitted_processed_tokens.\
 N.B. se si vuole eseguire la fase di Pre-processing è opportuno utilizzare una Runtime provvista di GPU. È possibile farlo dal menu Runtime -> Cambia tipo di runtime -> Accelerazione hardware -> GPU.
