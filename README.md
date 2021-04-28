@@ -16,7 +16,7 @@ File:
 * _reviewsPerFilm.txt_: lista contenente il numero di recensioni contenute nel dataset per ogni film, utilizzata da _opinion_mining.ipynb_ (è possibile generare questo file utilizzando _reviews_mapping.ipynb_).
 
 ## Istruzioni
-### _opinion_mining.ipynb_
+### Estrazione degli aspetti
 Scaricare il contenuto del repository.\
 Aprire Colab e caricare il notebook _opinion_mining.ipynb_.\
 Caricare in una cartella in Google Drive i file _dataset_movie_list.txt_, _reviewsPerFilm.txt_, la cartella _stopwords_ e il contenuto del dataset pre-elaborato: è necessaria solo la cartella _splitted_dataset_. _splitted_sentiment_ e _splitted_processed_tokens_ sono utili solo per evitare di dover eseguire la fase di Pre-processing. Se si vogliono eseguire solo le fasi di Aspect Extraction e Aspect Selection basta caricare _splitted_processed_tokens_.\
